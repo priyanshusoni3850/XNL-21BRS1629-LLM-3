@@ -9,7 +9,7 @@ XNL is a comprehensive solution designed to execute machine learning workflows s
 
 | File Name        | Description |
 |-----------------|-------------|
-| **`XNL_VERSION_TWO.ipynb`** | **(Recommended)** Separated phase approach, where each phase is executed independently, providing a more detailed explanation, structured outputs, and comprehensive conclusions. |
+| **`XNL_VERSIO.ipynb`** | **(Recommended)** Separated phase approach, where each phase is executed independently, providing a more detailed explanation, structured outputs, and comprehensive conclusions. |
 | `XNL_COLAB.ipynb` | Fully integrated backend in one execution pipeline. Optimized for quick execution. |
 | `app.py` | Backend script (may require virtual environment due to dependency clashes). |
 | `frontend/` | Simple frontend to fetch and display data from the backend. |
@@ -25,12 +25,12 @@ pip install -r requirements.txt
 ```
 
 ### 📌 Running the Notebooks on Google Colab
-1. Open **`XNL_VERSION_TWO.ipynb`** (Recommended) or `XNL_COLAB.ipynb` in [Google Colab](https://colab.research.google.com/).
+1. Open **`XNL_VERSIO.ipynb`** (Recommended) or `XNL_COLAB.ipynb` in [Google Colab](https://colab.research.google.com/).
 2. Navigate to `Runtime` > `Change runtime type`.
 3. Set **Hardware accelerator** to **T4 GPU**.
 4. Run all cells (`Runtime` > `Run all`).
 
-> **Recommended:** `XNL_VERSION_TWO.ipynb` provides a more structured breakdown, stepwise execution, detailed outputs, and well-documented conclusions for better understanding.
+> **Recommended:** `XNL_VERSIO.ipynb` provides a more structured breakdown, stepwise execution, detailed outputs, and well-documented conclusions for better understanding.
 
 ### 🖥️ Running the Backend
 ```bash
@@ -43,7 +43,7 @@ python app.py
 2. Navigate to the `frontend` directory and open `index.html` in a browser.
 
 ## 🎯 Features
-✅ **`XNL_VERSION_TWO.ipynb` (Recommended)** - Modular execution with separate phases, offering **detailed insights, structured outputs, and comprehensive conclusions**.
+✅ **`XNL_VERSIO.ipynb` (Recommended)** - Modular execution with separate phases, offering **detailed insights, structured outputs, and comprehensive conclusions**.
 ✅ **`XNL_COLAB.ipynb`** - Fully integrated backend in one execution, optimized for quick execution.
 ✅ **GPU Support** - Works best with Google Colab's **T4 GPU**.
 ✅ **Virtual Environment Support** - Avoids dependency clashes for backend execution.
