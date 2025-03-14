@@ -1,0 +1,11 @@
+# Ignore node_modules inside my-fintech-dashboard
+my-fintech-dashboard/node_modules/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables
+.env
