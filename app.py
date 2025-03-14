@@ -1,23 +1,7 @@
-#!/usr/bin/env python
 
-import collections
-collections.MutableMapping = collections.abc.MutableMapping
-
-"""
-Integrated Backend for LLM‑Powered Fraud Detection & Anomaly Analysis
-
-Phases integrated:
-  • Phase 1: Data Simulation & Multi‑Modal Feature Engineering
-  • Phase 2: Hybrid Embedding Generation & Multi‑LLM Integration
-  • Phase 3: Distributed Vector Search & Real‑Time Detection
-  • Phase 4: Full Pipeline & Rule‑Based Anomaly Detection with XAI
-  • Phase 5: Real‑Time Monitoring & Alerting (WebSockets, SMS, Prometheus, Bayesian Optimization)
-  • Phase 6: Enterprise‑Grade Security & Compliance (AES‑256, JWT, Audit Logging, Right to be Forgotten)
-  • Phase 7: Frontend Dashboard & API Development – Exposing a GraphQL endpoint for flexible querying
-       and a FastAPI-based fraud detection endpoint for ultra‑low latency processing.
-  
-This production‑quality backend exposes secure REST APIs, a GraphQL endpoint, and a FastAPI fraud detection API.
-"""
+# import collections
+# collections.MutableMapping = collections.abc.MutableMapping
+import collections.abc  # Explicitly import collections.abc
 
 import os, sys, json, time, base64, socket, random, datetime, logging, threading, asyncio, concurrent.futures
 
